@@ -15,8 +15,10 @@ ls -al ~/.ssh/id_*.pub
 if there are no keys
 
 
+
 2- Generate a new SSH key pair.
 ssh-keygen -t rsa -b 4096 -C "your_email@domain.com"
+
 
 
 3- Copy the public key
